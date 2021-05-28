@@ -8,9 +8,7 @@ import android.os.BatteryManager
 import android.os.Build
 
 class hello_w {
-    private lateinit var context : Context
-
-    fun getBatteryLevel(): Int {
+    fun getBatteryLevel( context: Context ): Int {
         val batteryLevel: Int
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             val batteryManager = context.getSystemService(Context.BATTERY_SERVICE) as BatteryManager
