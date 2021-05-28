@@ -1,0 +1,3 @@
+include ':module_android_libs'
+include ':app'
+rootProject.name = "libs_native"
