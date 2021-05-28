@@ -7,7 +7,7 @@ import android.content.IntentFilter
 import android.os.BatteryManager
 import android.os.Build
 
-class hello_w {
+class Battery {
     fun getBatteryLevel( context: Context ): Int {
         val batteryLevel: Int
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
